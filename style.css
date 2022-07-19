@@ -88,3 +88,16 @@ section.imagem > p {
     background-size: cover;
 }
 
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: auto;
+
+}
+
+
+footer > p > a:hover{
+    text-decoration: underline;
+    color: gray;
+}
