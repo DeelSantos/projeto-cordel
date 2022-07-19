@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+
+html, body {
+    min-height: 100%;
+    background-color: darkgray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    font-variant: small-caps;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+header h1 {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: clamp(20px, 10vw, 80px);
+    
+}
+
+header > h3 {
+    font-size: 0.8em;
+    padding-bottom: 50px;
+    
+}
+
+a {
+   text-decoration: none; 
+   color: white;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    font-family: monospace;
+    font-size: clamp(10px, 3vw, 20px);
+    
+}
+
+section > p {
+    padding-bottom: 3em;
+}
+
+
+.normal {
+    background-color: white;
+    color: black;
+    
+}
+
+.imagem {
+    background-color: #464545;
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px #00000067;
+    background-attachment: fixed;
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: #46454565;
+    text-shadow: 1px 1px 0px black;
+    
+}
+
+#img01 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right, center ;
+    background-size: cover;
+}
+
+#img02 {
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+}
+
